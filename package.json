@@ -1,13 +1,20 @@
 {
-  "name": "EC2-awsEC2app1-Instance",
+  "name": "next-uk-post-codes",
   "version": "1.0.0",
-  "description": "Node.js on Docker",
-  "author": "Charles Farmer <charles.farmer@gmail.com>",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.16.1"
+    "axios": "^0.19.2",
+    "next": "^9.3.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
